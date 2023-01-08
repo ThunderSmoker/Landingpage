@@ -5,20 +5,23 @@ import Nav from './components/nav'
 import Sec1 from './components/section-1'
 import Sec2 from './components/section-2'
 import Sec3 from './components/section-3'
-import Carousel from './components/carousel'
+// import Carousel from './components/carousel'
 import Sec5 from './components/section-5'
 import Sec6 from './components/section-6'
 
+
 function App() {
   return (
-    <div className="app-wrapper">
-      <Nav />
+    <div className="app-wrapper" 
+    style={{backgroundColor:"black"}}
+    >
+      {/* <Nav /> */}
       <Header />
       <Sec1 />
-      <Sec2 />
-      <Sec3 />
-      <Carousel />
-      <Sec5 />
+      {/* <Sec2 /> */}
+      {/* <Sec3 /> */}
+      {/* <Carousel /> */}
+      {/* <Sec5 /> */}
       <Sec6 />
       <style jsx global>{`
         .app-wrapper {

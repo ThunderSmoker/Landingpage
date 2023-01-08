@@ -2,11 +2,13 @@ import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
 
 export default () => (
+  
   <section className="s6">
+    <img src="" alt="" srcset="" />
     <Container>
       <div className="s6__titles">
-        <h1>team member</h1>
-        <h4>Integer Cursus Bibendum Augue Ac Cursus .</h4>
+        <h1 style={{color:"white"}}>Team members</h1>
+        <h4>The people who contributed</h4>
       </div>
       <Row>
         <Col md="6" lg="3">
@@ -21,8 +23,8 @@ export default () => (
                 <i className="fab fa-twitter" />
                 <i class="fab fa-linkedin-in" />
               </div>
-              <h3>manager</h3>
-              <h3>kimberly tran</h3>
+              <h3>Leader</h3>
+              <h3>Vaishnavi Karale</h3>
             </div>
           </div>
         </Col>
@@ -38,8 +40,8 @@ export default () => (
                 <i className="fab fa-twitter" />
                 <i class="fab fa-linkedin-in" />
               </div>
-              <h3>manager</h3>
-              <h3>kimberly tran</h3>
+              <h3>Developer</h3>
+              <h3>Aradhya Pitlawar</h3>
             </div>
           </div>
         </Col>
@@ -55,8 +57,8 @@ export default () => (
                 <i className="fab fa-twitter" />
                 <i class="fab fa-linkedin-in" />
               </div>
-              <h3>manager</h3>
-              <h3>kimberly tran</h3>
+              <h3>Investor</h3>
+              <h3>Aaditya Jawanjal</h3>
             </div>
           </div>
         </Col>
@@ -72,8 +74,8 @@ export default () => (
                 <i className="fab fa-twitter" />
                 <i class="fab fa-linkedin-in" />
               </div>
-              <h3>manager</h3>
-              <h3>kimberly tran</h3>
+              <h3>Designer</h3>
+              <h3>Sujan Mujawar</h3>
             </div>
           </div>
         </Col>

@@ -3,17 +3,20 @@ import { Container, Jumbotron } from 'reactstrap'
 
 const Header = () => {
   return (
-    <header>
+    <header >
       <div className="intro-logo jumbo-bg">
-        <h1>Welcome to eStartups</h1>
-        <h3>Elegant Bootstrap Template for Startups, Apps & more...</h3>
+        <h1 style={{fontSize:"6em"}}>Welcome to <p style={{color:"purple"}}>Spiffy</p></h1>
+        <h3>A perfect Web App for your casual and professional meets...</h3>
         <img
           src="https://bootstrapmade.com/demo/themes/eStartup/img/hero-img.png"
           className=""
           alt=""
         />
-        <div className="intro-button">
-          <a href="">Get Started</a>
+        <div className="intro-button" >
+          <button ><strong>
+            Get Started
+            </strong>
+            </button>
         </div>
         <div className="company-icons">
           <span className="company-icons__item">
@@ -53,9 +56,9 @@ const Header = () => {
           font-size: 1.8em;
           font-weight: 900;
           font-family: 'Philosopher', sans-serif;
-          color: var(--brand-color);
+          color: white;
         }
-        @media (min-width: 768px) {
+        @media (max-width: 600px) {
           .intro-logo h1 {
             font-size: 3.5em;
           }
@@ -85,18 +88,23 @@ const Header = () => {
         .intro-button {
           margin-top: 2.3em;
           margin-bottom: 3em;
+       
         }
-        .intro-button a {
+        .intro-button button {
           padding: 0.65em 2.6em;
-          border-radius: 20px;
-          color: var(--brand-color);
-          border: 1.8px solid var(--brand-color);
-          background: white;
-          transition: all 0.5s;
-        }
-        .intro-button a:hover {
-          background-color: var(--brand-color);
+          border-radius:30px;
           color: white;
+          border: 1.8px solid var(--brand-color);
+          background: purple;
+          transition: all 0.5s;
+          border-color:white;
+          font-size:2em;
+          
+        }
+        .intro-button button:hover {
+          background-color: white;
+          border-color:purple;
+          color: purple;
         }
 
         .company-icons {
@@ -107,7 +115,7 @@ const Header = () => {
           transition: all 0.5s;
         }
         .company-icons__item:hover {
-          color: var(--brand-color);
+          color: purple;
           cursor: pointer;
         }
       `}</style>

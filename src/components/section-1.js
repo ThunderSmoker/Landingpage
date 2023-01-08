@@ -7,8 +7,8 @@ export default () => {
       <Container>
         <Row>
           <Col md="12" className="text-center s1-intro">
-            <h1>Simple Systeme Fordiscount</h1>
-            <h3>nteger Cursus Bibendum Augue Ac Cursus .</h3>
+            <h1 style={{color:"purple"}}>Simple Reliable easy</h1>
+            <h3 style={{color:"white"}}>Its all you need!</h3>
           </Col>
           <Col md="6" lg="4" className="text-center s1-advice">
             <img
@@ -16,12 +16,11 @@ export default () => {
               src="https://bootstrapmade.com/demo/themes/eStartup/img/svg/cloud.svg"
               alt=""
             />
-            <h3>introducing whatsup</h3>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry
+            <h3 style={{color:"purple"}}>Easy to use</h3>
+            <p style={{color:"white"}}>
+              Open the website , enter your name and you are good to go..
             </p>
-            <a href="">read more</a>
+    
           </Col>
           <Col md="6" lg="4" className="text-center s1-advice">
             <img
@@ -29,12 +28,11 @@ export default () => {
               src="https://bootstrapmade.com/demo/themes/eStartup/img/svg/planet.svg"
               alt=""
             />
-            <h3>user friendly interface</h3>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry
+            <h3 style={{color:"purple"}}>User Friendly Interface</h3>
+            <p style={{color:"white"}}> 
+              No extra buttons. Only which needed
             </p>
-            <a href="">read more</a>
+           
           </Col>
           <Col md="6" lg="4" className="text-center s1-advice">
             <img
@@ -42,12 +40,11 @@ export default () => {
               src="https://bootstrapmade.com/demo/themes/eStartup/img/svg/asteroid.svg"
               alt=""
             />
-            <h3>Build the app everyone love</h3>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry
+            <h3 style={{color:"purple"}}>Cute Avatars</h3>
+            <p style={{color:"white"}}>
+              Everytime you join the meet you get a cute anime avatar
             </p>
-            <a href="">read more</a>
+            
           </Col>
         </Row>
       </Container>
