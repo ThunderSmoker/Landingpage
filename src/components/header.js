@@ -3,7 +3,7 @@ import { Container, Jumbotron } from 'reactstrap'
 
 const Header = () => {
   const handleClick=()=>{
-    window.open( "https://localhost:3000","_blank")
+    window.open( "http://localhost:3000","_blank")
   }
   return (
     <header >
