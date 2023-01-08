@@ -2,6 +2,9 @@ import React from 'react'
 import { Container, Jumbotron } from 'reactstrap'
 
 const Header = () => {
+  const handleClick=()=>{
+    window.open( "https://localhost:3000","_blank")
+  }
   return (
     <header >
       <div className="intro-logo jumbo-bg">
@@ -13,7 +16,7 @@ const Header = () => {
           alt=""
         />
         <div className="intro-button" >
-          <button ><strong>
+          <button onClick={handleClick}><strong>
             Get Started
             </strong>
             </button>
