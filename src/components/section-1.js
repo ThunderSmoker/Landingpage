@@ -40,9 +40,9 @@ export default () => {
               src="https://bootstrapmade.com/demo/themes/eStartup/img/svg/asteroid.svg"
               alt=""
             />
-            <h3 style={{color:"purple"}}>Cute Avatars</h3>
+            <h3 style={{color:"purple"}}>Easy Sharing</h3>
             <p style={{color:"white"}}>
-              Everytime you join the meet you get a cute anime avatar
+              Copy the meet link from share button and invite them to join too
             </p>
             
           </Col>

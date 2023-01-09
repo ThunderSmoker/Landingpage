@@ -1,9 +1,14 @@
 import React from 'react'
-import { Container, Jumbotron } from 'reactstrap'
 
 const Header = () => {
   const handleClick=()=>{
-    window.open( "http://localhost:3000","_blank")
+    window.open( "https://spiffy-video-meet-374207.de.r.appspot.com","_blank")
+  }
+  const handleJoin=()=>{
+    const text=document.getElementById("meet-link").value;
+    if(text!==''){
+    window.open( text,"_blank")
+    }
   }
   return (
     <header >
@@ -20,6 +25,20 @@ const Header = () => {
             Get Started
             </strong>
             </button>
+        </div>
+        <div style={{marginBottom:10}}>
+          <p style={{fontSize:19,color:"purple",border:"white"}} >
+
+            OR
+            
+          </p>
+           
+        </div>
+        <div className="intro-button1" >
+          <input type="text" placeholder='Enter the meet link to join...' id='meet-link' style={{width:310}} />
+          
+          <br />
+          <button onClick={handleJoin}>Join</button>
         </div>
         <div className="company-icons">
           <span className="company-icons__item">
@@ -43,6 +62,7 @@ const Header = () => {
           height: 100vh;
         }
         .intro-logo {
+          margin-top:3em;
           display: flex;
           position: absolute;
           top: 5em;
@@ -90,7 +110,7 @@ const Header = () => {
         }
         .intro-button {
           margin-top: 2.3em;
-          margin-bottom: 3em;
+          margin-bottom: 1.2em;
        
         }
         .intro-button button {
@@ -103,8 +123,41 @@ const Header = () => {
           border-color:white;
           font-size:2em;
           
+          
         }
         .intro-button button:hover {
+          background-color: white;
+          border-color:purple;
+          color: purple;
+        }
+        .intro-button1 button {
+          paddingX:0.9em;
+          border-radius:30px;
+          color: white;
+          border: 1.8px solid var(--brand-color);
+          background: purple;
+          transition: all 0.5s;
+          border-color:white;
+          font-size:1em;
+          width:70px;
+          margin-top:1em;
+          margin-bottom:2em;
+        }
+        .intro-button1 input {
+          height:27px;
+          paddingX:0.9em;
+          border-radius:10px;
+          color: black;
+          border: 1.8px solid purple;
+          background: white;
+          transition: all 0.5s;
+          border-color:purple;
+          font-size:1em;
+          margin-left:0.2em;
+          width:77px;
+          
+        }
+        .intro-button1 button:hover {
           background-color: white;
           border-color:purple;
           color: purple;
